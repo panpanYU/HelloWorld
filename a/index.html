@@ -376,51 +376,56 @@
 </div>
 </div>
 <br/></body>
-<script type="text/javascript">    $.fn.smartFloat = function () {
-    var position = function (element) {
-        var top = element.position().top, pos = element.css("position");
-        $(window).scroll(function () {
-            var scrolls = $(this).scrollTop();
-            if (scrolls > top) {
-                if (window.XMLHttpRequest) {
-                    element.css({
-                        position: "fixed", top: 0                        });
+<script type="text/javascript">
+    $.fn.smartFloat = function () {
+        var position = function (element) {
+            var top = element.position().top,
+                    pos = element.css("position");
+            $(window).scroll(function () {
+                var scrolls = $(this).scrollTop();
+                if (scrolls > top) {
+                    if (window.XMLHttpRequest) {
+                        element.css({
+                            position: "fixed", top: 0
+                        });
+                    } else {
+                        element.css({
+                            top: scrolls
+                        });
+                    }
                 } else {
                     element.css({
-                        top: scrolls                        });
+                        position: "absolute", top: top
+                    });
                 }
-            } else {
-                element.css({
-                    position: pos, top: top                    });
-            }
+            });
+        };
+        return $(this).each(function () {
+            position($(this));
         });
     };
-    return $(this).each(function () {
-        position($(this));
-    });
-};
-//绑定
-$("#A").smartFloat();
-$("#B").smartFloat();
-$("#C").smartFloat();
-$("#D").smartFloat();
-$("#F").smartFloat();
-$("#G").smartFloat();
-$("#H").smartFloat();
-$("#J").smartFloat();
-$("#K").smartFloat();
-$("#L").smartFloat();
-$("#M").smartFloat();
-$("#N").smartFloat();
-$("#O").smartFloat();
-$("#P").smartFloat();
-$("#Q").smartFloat();
-$("#R").smartFloat();
-$("#S").smartFloat();
-$("#T").smartFloat();
-$("#W").smartFloat();
-$("#X").smartFloat();
-$("#Y").smartFloat();
-$("#Z").smartFloat();
+    //绑定
+    $("#A").smartFloat();
+    $("#B").smartFloat();
+    $("#C").smartFloat();
+    $("#D").smartFloat();
+    $("#F").smartFloat();
+    $("#G").smartFloat();
+    $("#H").smartFloat();
+    $("#J").smartFloat();
+    $("#K").smartFloat();
+    $("#L").smartFloat();
+    $("#M").smartFloat();
+    $("#N").smartFloat();
+    $("#O").smartFloat();
+    $("#P").smartFloat();
+    $("#Q").smartFloat();
+    $("#R").smartFloat();
+    $("#S").smartFloat();
+    $("#T").smartFloat();
+    $("#W").smartFloat();
+    $("#X").smartFloat();
+    $("#Y").smartFloat();
+    $("#Z").smartFloat();
 </script>
 </html>

@@ -265,4 +265,5 @@ div {
 .brand-con .bg span{
     background-color: #ff0;
     width: 1000px;
+    top: 0;
 }
