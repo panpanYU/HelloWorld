@@ -135,6 +135,9 @@ div {
 
 .bg-f0 {
     background-color: #f0f0f0;
+    width: 100%;
+    display: inline-block;
+    z-index: 999;
 }
 .p-l-12{
   padding-left: 12px;
@@ -257,4 +260,9 @@ div {
 }
 .brand-con{
     z-index: -9999;
+}
+
+.brand-con .bg span{
+    background-color: #ff0;
+    width: 1000px;
 }
