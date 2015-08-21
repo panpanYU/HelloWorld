@@ -16,8 +16,6 @@ body {
     background: #fff;
     -webkit-text-size-adjust: none;
     min-width: 320px;
-    height: 99.9%;
-    margin: 0 auto;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -141,12 +139,10 @@ div {
     display: inline-block;
     z-index: 999;
 }
-
-.p-l-12 {
-    padding-left: 12px;
+.p-l-12{
+  padding-left: 12px;
 }
-
-.brand {
+.brand{
     font-size: 12px;
     color: #666;
     margin: 0 auto;
@@ -187,11 +183,10 @@ div {
     -o-transform: rotate(45deg);
 }
 
-.brand-info .brand-prompt {
+.brand-info .brand-prompt  {
     height: 20px;
     font-size: 9px;
 }
-
 .brand-info .brand-prompt span {
     line-height: 20px;
 }
@@ -227,21 +222,34 @@ div {
     line-height: 31px;
     font-size: 12px;
 }
-
-.color-orange {
-    color: #FF4E2C;
+.color-orange{
+   color:  #FF4E2C;
 }
-
-.lh19 {
+.lh19{
     line-height: 19px;
 }
-
-.hot-brand .car {
+.hot-brand .car{
     padding: 5px 0 5px 12px;
     overflow: hidden;
 }
-
-.hot-brand .car li {
+.hot-brand .car li{
+    height: 25px;
+    line-height: 25px;
+    width: 100px;
+    text-align: left;
+   float: left;
+    color: #333;
+    font-size: 14px;
+}
+.hot-brand .brand-con{
+    padding: 5px 0 5px 12px;
+    overflow: hidden;
+}
+.con{
+    padding: 5px 0 5px 12px;
+    overflow: hidden;
+}
+.con li{
     height: 25px;
     line-height: 25px;
     width: 100px;
@@ -250,33 +258,11 @@ div {
     color: #333;
     font-size: 14px;
 }
-
-.hot-brand .brand-con {
-    padding: 5px 0 5px 12px;
-    overflow: hidden;
-}
-
-.con {
-    padding: 5px 0 5px 12px;
-    overflow: hidden;
-}
-
-.con li {
-    height: 25px;
-    line-height: 25px;
-    width: 100px;
-    text-align: left;
-    float: left;
-    color: #333;
-    font-size: 14px;
-}
-
-.brand-con {
+.brand-con{
     z-index: -9999;
 }
 
-.brand-con .bg span {
+.brand-con .bg span{
     background-color: #ff0;
     width: 1000px;
-    position: absolute;
 }
