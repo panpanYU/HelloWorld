@@ -1,0 +1,49 @@
+@charset "UTF-8";
+//头部，我的爱车，公司名称
+#jbs-mobile-header {
+  .top_bar {
+    position: relative;
+    text-align: center;
+    font-size: 13px;
+    height: 44px;
+    line-height: 44px;
+    width: 100%;
+    overflow: hidden;
+    zoom: 1;
+    background-color: @assisted-red-1;
+    color: @light-white;
+    font-family: @font-topbar;
+  }
+  .top_myCar {
+    float: left;
+    width: 20%;
+    text-align: left;
+    padding-left: 10px;
+    overflow: hidden;
+    .car_icon {
+      width: 23px;
+      height: 17px;
+      display: inline-block;
+      background: url("http://localhost:63342/grunt/src/webapp/css/images/home_icon_car@3x.png") center center no-repeat;
+      background-size: cover;
+      vertical-align: middle;
+    }
+  }
+
+  .top-jbs-title {
+    display: inline-block;
+    font-size: 17px;
+    font-weight: bold;
+  }
+  .top_bl {
+    float: right;
+    width: 20%;
+    text-align: right;
+    .login {
+      margin-right: 10px;
+      display: block;
+      overflow: hidden;
+      color: @light-white;
+    }
+  }
+}
