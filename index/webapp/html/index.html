@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <title></title>
+    <!--强制让文档的宽度与设备的宽度保持1:1，并且文档最大的宽度比例是1.0，且不允许用户点击屏幕放大浏览-->
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no;">
+    <!--允许全屏模式浏览-->
+    <meta name="”apple-mobile-web-app-capable”" content="”yes”/">
+    <!--第三个meta标签也是iphone的私有标签，它指定的iphone中safari顶端的状态条的样式；-->
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <!--告诉设备忽略将页面中的数字识别为电话号码-->
+    <meta content="telephone=no" name="format-detection">
+    <link type="text/css" rel="stylesheet" href="http://localhost:63342/grunt/src/webapp/css/global.css">
+    <link type="text/css" rel="stylesheet" href="http://localhost:63342/grunt/src/webapp/less/css/index.css">
+
+    <!--轮播图-->
+    <noscript>
+        <link rel="stylesheet" href="http://localhost:63342/grunt/src/webapp/less/css/mobile.min.css" />
+    </noscript>
+    <script src="http://localhost:63342/grunt/src/webapp/js/jquery-1.9.1.min.js"></script>
+    <script src="http://localhost:63342/grunt/src/webapp/js/jquery.excoloSlider.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="http://localhost:63342/grunt/src/webapp/css/jquery.excoloSlider.css">
+    <script>
+        // Settings for Adaptive.js
+        var ADAPT_CONFIG = {
+            path: 'http://localhost:63342/grunt/src/webapp/css/',
+            dynamic: true,
+            range: [
+                '0px    to 760px  = mobile.min.css',
+                '760px  to 980px  = 720.min.css',
+                '980px            = 960.min.css'
+            ]
+        };
+    </script>
+    <script>
+        $(function () {
+            $("#sliderB").excoloSlider();
+        });
+    </script>
+</head>
+<body>
+<!-- head_start -->
+<div id="jbs-mobile-header">
+    <header class="top_bar">
+        <div class="top_myCar">
+            <span class="car_icon">
+
+            </span>
+            <span>我的爱车</span>
+        </div>
+        <div class="top-jbs-title">金扳手</div>
+        <div class="top_bl"><a href="" alt="" class="login">登陆</a></div>
+    </header>
+<!--首页轮播-->
+    <div id="sliderB" class="slider">
+        <div style="" class="pic-one" )><h2>First slide</h2></div>
+        <div style="" class="pic-two"><h2>Second slide</h2></div>
+        <div style="" class="pic-three"><h2>Third slide</h2></div>
+        <div style="" class="pic-four"><h2>Fourth slide</h2></div>
+    </div>
+    <!--首页搜索-->
+    <div class="jbs-search-bg">
+        <div class="jbs-search">
+            <input type="text" class="text" placeholder="请填写行使的里程数"/><input type="submit" value="去保养" class="search"/>
+        </div>
+    </div>
+<!--功能-->
+<div id="jbs-shortcut" class="shortcut-product">
+    <a class="shortcut-item cell">
+        <img class="shortcut-icon" src="http://localhost:63342/grunt/src/webapp/css/images/小保养.png"
+             width="43" height="43" style="opacity: 1;">小保养</a>
+    <a class="shortcut-item cell">
+        <img class="shortcut-icon" src="http://localhost:63342/grunt/src/webapp/css/images/换雨刮片.png"
+             width="43" height="43" style="opacity: 1;">换雨刮片</a>
+    <a class="shortcut-item cell">
+        <img class="shortcut-icon" src="http://localhost:63342/grunt/src/webapp/css/images/换火花塞.png"
+             width="43" height="43" style="opacity: 1;">换火花塞</a>
+    <a class="shortcut-item cell">
+        <img class="shortcut-icon" src="http://localhost:63342/grunt/src/webapp/css/images/更换电池.png"
+             width="43" height="43" style="opacity: 1;">更换电瓶</a>
+    <a class="shortcut-item cell">
+        <img class="shortcut-icon" src="http://localhost:63342/grunt/src/webapp/css/images/换刹车片.png"
+             width="43" height="43" style="opacity: 1;">换刹车片</a>
+    <a class="shortcut-item cell">
+        <img class="shortcut-icon" src="http://localhost:63342/grunt/src/webapp/css/images/更换轮胎.png"
+             width="43" height="43" style="opacity: 1;">更换轮胎</a>
+    <a class="shortcut-item cell">
+        <img class="shortcut-icon" src="http://localhost:63342/grunt/src/webapp/css/images/发动机养护.png"
+             width="43" height="43" style="opacity: 1;">发动机养护</a>
+    <a class="shortcut-item cell">
+        <img class="shortcut-icon" src="http://localhost:63342/grunt/src/webapp/css/images/更多.png"
+             width="43" height="43" style="opacity: 1;">更多</a>
+</div>
+    <!--服务流程-->
+<section class="Process">
+    <div class="Process-title"><span>服务流程</span></div>
+    <div class="pr-lt">
+        <div class="lt-dsb cell">
+            <p class="greater cell"><span class="r">&gt;</span></p>
+
+            <div>
+                <p>选择车型</p>
+
+                <p>精准服务</p>
+            </div>
+        </div>
+        <div class="lt-dsb cell">
+            <p class="greater cell"><span class="r">&gt;</span></p>
+
+            <div>
+                <p>选择服务</p>
+
+                <p>预约商家</p>
+            </div>
+        </div>
+        <div class="lt-dsb cell">
+            <p class="greater cell"><span class="r">&gt;</span></p>
+
+            <div>
+                <p>线下服务</p>
+
+                <p>现场支付</p>
+            </div>
+        </div>
+        <div class="lt-dsb cell">
+            <div>
+                <p>售后服务</p>
+
+                <p>在线点评</p></div>
+        </div>
+    </div>
+</section>
+</div>
+<!--底部-->
+<footer class="jbs-footer">
+        <a class="shortcut-item cell">
+            <img class="shortcut-icon" src="http://localhost:63342/grunt/src/webapp/css/images/home_tab_button1_focus@3x.png" width="25" height="25" style="opacity: 1;">首页</a>
+        <a class="shortcut-item cell">
+            <img class="shortcut-icon" src="http://localhost:63342/grunt/src/webapp/css/images/home_tab_button2@3x.png" width="25" height="25" style="opacity: 1;">商铺</a>
+        <a class="shortcut-item cell">
+            <img class="shortcut-icon" src="http://localhost:63342/grunt/src/webapp/css/images/home_tab_button3@3x.png" width="25" height="25" style="opacity: 1;">用品</a>
+        <a class="shortcut-item cell">
+            <img class="shortcut-icon" src="http://localhost:63342/grunt/src/webapp/css/images/home_tab_button4@3x.png" width="25" height="25" style="opacity: 1;">我的</a>
+</footer>
+</body>
+</html>

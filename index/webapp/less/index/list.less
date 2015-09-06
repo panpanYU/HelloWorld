@@ -1,0 +1,114 @@
+@charset "UTF-8";
+//列表多个icon排列公用
+.shortcut-item {
+  text-align: center;
+  line-height: normal;
+  height: auto;
+  display: block;
+  float: left;
+  padding: 10px 0;
+  .shortcut-icon {
+    display: block;
+    margin: 0 auto 5px;
+
+  }
+}
+//搜索框
+.jbs-search-bg {
+  height: 58px;
+  background-color: @light-white;
+  .jbs-search {
+    padding: 10px;
+    overflow: hidden;
+    height: 38px;
+    input {
+      height: 38px;
+      font-size: 15px;
+  width: 100%;
+    }
+    input .text{
+      padding-left: 43px;
+
+
+    }
+    .text {
+      width: 80%;
+      line-height: 36px;
+      border: 1px solid @assisted-gray-1;
+      overflow: hidden;
+      clear: both;
+      background: url("http://localhost:63342/grunt/src/webapp/css/images/Imported Layers Copy 6.png") 7px center no-repeat;
+      background-size: 17px 17px;
+
+    }
+    .search {
+      margin-left: -2px;
+      height: 40px;
+      width: 20%;
+      letter-spacing: 1px;
+      background-color: @assisted-red-1;
+      color: @light-white;
+      border: 1px solid @assisted-red-1;
+
+    }
+  }
+}
+
+//列表展示
+.cell {
+  float: left;
+  width: 25%;
+}
+
+.shortcut-product {
+  font-family: @basic-font-family;
+  background: #fff;
+  height: 168px;
+  margin: 10px 0;
+
+}
+
+//服务流程
+.Process {
+  margin-bottom: 10px;
+  border-bottom: 1px solid @assisted-gray-2;
+  color: #333;
+  background-color: #fff;
+  height: 86px;
+  .Process-title {
+    height: 22px;
+    line-height: 22px;
+    span {
+      display: block;
+      width: 66px;
+      background-color: @assisted-red-1;
+      color: #fff;
+      text-align: center;
+    }
+  }
+
+  .pr-lt {
+    position: relative;
+    height: 44px;
+    padding: 10px;
+    .lt-dsb {
+      height: 44px;
+      font-size: 12px;
+      text-align: center;
+      background: url("http://localhost:63342/grunt/src/webapp/css/images/home_icon_process@2x.png") center center no-repeat;
+      background-size: 80% 100%;
+      p {
+        height: 22px;
+        line-height: 22px;
+      }
+
+    }
+  }
+  .greater {
+    position: absolute;
+    span {
+      font-size: 13px;
+      line-height: 44px;
+    }
+  }
+}
