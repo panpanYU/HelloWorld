@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$USER_HOME$/Downloads/tradingroom/.idea/bootstrap-3.1.1-dist.iml" filepath="$USER_HOME$/Downloads/tradingroom/.idea/bootstrap-3.1.1-dist.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/tradingroom.iml" filepath="$PROJECT_DIR$/.idea/tradingroom.iml" />
     </modules>
   </component>
 </project>

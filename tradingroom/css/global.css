@@ -1,0 +1,622 @@
+body {
+    padding-top: 50px;
+    /*padding-bottom: 40px;*/
+    color: #5a5a5a;
+}
+.flex {
+    display: -moz-box;
+    display: -webkit-box;
+    display: box;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex
+}
+
+.flex-1 {
+    width: 100%;
+    -moz-box-flex: 1;
+    -webkit-box-flex: 1;
+    box-flex: 1;
+    -moz-flex: 1;
+    -webkit-flex: 1;
+    flex: 1
+}
+
+.flex-one {
+    display: -moz-box;
+    display: -webkit-box;
+    display: box;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+    flex-flow: row
+}
+.icon-7 {
+    width: 7px;
+    height: 7px;
+    background-image: url("/tradingroom/css/images/icon-7.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    vertical-align: middle
+}
+
+.icon-7-arrow-down {
+    background-position: 0 0
+}
+
+.icon-18 {
+    width: 18px;
+    height: 18px;
+    background-image: url("/tradingroom/css/images/icon-18.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    vertical-align: middle
+}
+
+.icon-18-people {
+    background-position: 0 0
+}
+
+.icon-18-return {
+    background-position: 0 -18px
+}
+
+.icon-18-pic {
+    background-position: 0 -36px
+}
+
+.icon-18-gzq {
+    background-position: 0 -54px
+}
+
+.icon-18-setting {
+    background-position: 0 -72px
+}
+
+.icon-18-out {
+    background-position: 0 -90px
+}
+
+.icon-18-close {
+    background-position: 0 -108px
+}
+
+.icon-18-one {
+    background-position: 0 -126px
+}
+
+.icon-18-two {
+    background-position: 0 -144px
+}
+
+.icon-18-three {
+    background-position: 0 -162px
+}
+
+.icon-18-ones {
+    background-position: 0 -180px
+}
+
+.icon-18-twos {
+    background-position: 0 -198px
+}
+
+.icon-18-threes {
+    background-position: 0 -216px
+}
+
+.icon-28 {
+    width: 28px;
+    height: 28px;
+    background-image: url("/tradingroom/css/images/icon-28.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    vertical-align: middle
+}
+
+.icon-28-people {
+    background-position: 0 0
+}
+
+.icon-28-lock {
+    background-position: 0 -28px
+}
+
+.icon-28-download {
+    background-position: 0 -56px
+}
+
+.icon-28-unionPay {
+    background-position: 0 -84px
+}
+
+.icon-28-contact {
+    background-position: 0 -112px
+}
+
+.icon-28-funds {
+    background-position: 0 -140px
+}
+
+.icon-28-zyzj {
+    background-position: 0 -168px
+}
+
+.icon-28-draw {
+    background-position: 0 -196px
+}
+
+.icon-28-tqzj {
+    background-position: 0 -224px
+}
+
+.icon-28-pen {
+    background-position: 0 -252px
+}
+
+.icon-38 {
+    width: 38px;
+    height: 38px;
+    background-image: url("/tradingroom/css/images/icon-38.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    vertical-align: middle
+}
+
+.icon-38-transfer {
+    background-position: 0 0
+}
+
+.icon-38-unionPay {
+    background-position: 0 -38px
+}
+
+.icon-38-home {
+    background-position: 0 -76px
+}
+
+.icon-38-seeting {
+    background-position: 0 -114px
+}
+
+.icon-38-qq {
+    background-position: 0 -152px
+}
+
+.icon-38-lives {
+    background-position: 0 -190px
+}
+
+.icon-38-pc {
+    background-position: 0 -228px
+}
+
+.icon-38-iphone {
+    background-position: 0 -266px
+}
+
+.icon-38-android {
+    background-position: 0 -304px
+}
+
+.icon-42 {
+    width: 42px;
+    height: 42px;
+    background-image: url("/tradingroom/css/images/icon-42.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    vertical-align: middle
+}
+
+.icon-42-weibo {
+    background-position: 0 0
+}
+
+.icon-42-weixin {
+    background-position: 0 -42px
+}
+
+.icon-42-facebook {
+    background-position: 0 -84px
+}
+
+.icon-42-tweet {
+    background-position: 0 -126px
+}
+
+.icon-42-yotub {
+    background-position: 0 -168px
+}
+
+.icon-42-tick {
+    background-position: 0 -210px
+}
+
+.icon-50 {
+    width: 50px;
+    height: 50px;
+    background-image: url("/tradingroom/css/images/icon-50.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    vertical-align: middle
+}
+
+.icon-50-grzj {
+    background-position: 0 0
+}
+
+.icon-50-crzj {
+    background-position: 0 -50px
+}
+
+.icon-50-tqzj {
+    background-position: 0 -100px
+}
+
+.icon-50-zjnz {
+    background-position: 0 -150px
+}
+
+.icon-50-download {
+    background-position: 0 -200px
+}
+
+.icon-50-yhzh {
+    background-position: 0 -250px
+}
+
+.icon-50-sqzzh {
+    background-position: 0 -300px
+}
+
+.icon-50-hzq {
+    background-position: 0 -350px
+}
+
+.icon-50-grzj-hover {
+    background-position: 0 -400px
+}
+
+.icon-50-crzj-hover {
+    background-position: 0 -450px
+}
+
+.icon-50-tqzj-hover {
+    background-position: 0 -500px
+}
+
+.icon-50-zjnz-hover {
+    background-position: 0 -550px
+}
+
+.icon-50-download-hover {
+    background-position: 0 -600px
+}
+
+.icon-50-yhzh-hover {
+    background-position: 0 -650px
+}
+
+.icon-50-sqzzh-hover {
+    background-position: 0 -700px
+}
+
+.icon-50-hzq-hover {
+    background-position: 0 -750px
+}
+
+.icon-165 {
+    width: 165px;
+    height: 100px;
+    background-image: url("/tradingroom/css/images/icon-165.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    vertical-align: middle
+}
+
+.icon-165-pic {
+    background-position: 0 0
+}
+
+.icon-165-pic1 {
+    background-position: 0 -100px
+}
+.pad-6{
+    padding: 6px!important;
+}
+.sidebar{
+    /*padding-top: 20px;*/
+}
+.sidebar .menu {
+    background-size: cover;
+    background: #3a4c65;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    color: #fff;
+    padding-bottom: 28px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.detail-infor{
+    padding: 0 10px;
+}
+
+.sidebar .menu .Tips {
+    color: #829dc3;
+    font-size: 12px;
+    padding: 14px 0 0 10px
+}
+
+.sidebar .menu .title {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0 0 0 10px
+}
+
+.sidebar .menu .title i {
+    vertical-align: baseline;
+    margin-right: 10px
+}
+.sidebar .menu .title label {
+    margin-bottom:0;
+    font-size: 22px;
+}
+.sidebar .menu .regtime {
+    margin: 14px 60px 20px 0;
+    font-size: 12px;
+    padding: 10px 0 10px 10px;
+    background-color: #2e3c4f;
+    -moz-border-radius: 0 20px 20px 0;
+    -webkit-border-radius: 0 20px 20px 0;
+    border-radius: 0 20px 20px 0;
+    color: #b7babf
+}
+.submit-refresh {
+    margin: 20px 10px 0 10px;
+    padding-top: 20px;
+    border-top: 1px solid #4d5c73
+}
+
+.submit-refresh a {
+    text-align: right;
+    float: right;
+    padding: 0 0 10px 0;
+}
+
+.submit-refresh a input {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    width: 90px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #ff8b44;
+    color: #fff;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    font-size: 13px;
+    border: none;
+    outline: none;
+}
+
+.submit-refresh a input:disabled {
+    background-color: #5e636c;
+    font-size: 13px
+}
+
+#table tr td{
+    text-align: center;
+}
+#table tbody tr td:nth-child(3){
+    /*padding-right: 30px;*/
+    text-align: center;
+}
+.btn-green {
+    margin: 28px 10px 0 10px;
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    background-color: #86b819;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    font-size: 22px;
+    text-align: center;
+}
+
+.btn-green a {
+    text-align: center;
+    color: #fff;
+}
+.details {
+    /*display: inline-block;*/
+    /**display: inline;*/
+    /**zoom: 1;*/
+    margin: 24px 0 20px 0;
+    height: 100px
+}
+
+.details p {
+    text-align: center;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    height: 100px;
+}
+
+.details p:first-child {
+    background: #667BA6 url(/tradingroom/css/images/icon-165.png) no-repeat right top;
+    margin-right: 10px;
+}
+.details p:last-child {
+    background: #7284AC url(/tradingroom/css/images/icon-165.png) no-repeat right bottom;
+    margin-left: 10px;
+}
+
+.details p span:first-child {
+    display: block;
+    margin-top: 40px;
+    color: #fff;
+    font-size: 18px
+}
+
+.details p span:last-child {
+    color: #96a5c2;
+    font-size: 12px;
+    line-height: 30px;
+}
+.contact a {
+    color: #fff;
+    width: 165px;
+    height: 50px;
+    line-height: 50px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    text-align: center;
+}
+
+.contact a:first-child {
+    background-color: #3da4e0;
+    display: block;
+    margin-right: 10px;
+}
+
+.contact a:last-child {
+    background-color: #9198dc;
+    display: block;
+    margin-left: 10px;
+}
+
+.risk-tip {
+    font-size: 12px;
+    color: #666;
+    line-height: 22px;
+    border-top: 1px solid #d2d7db;
+    margin-top: 40px;
+    padding: 10px 0 40px 0;
+    text-align: justify
+}
+.footer {
+    zoom: 1;
+    padding: 30px 0;
+    background-color: #303030;
+    color: #fff
+}
+
+.footer * {
+    vertical-align: middle
+}
+
+.footer .menu {
+    line-height: 50px
+}
+
+.footer .menu label {
+    font-size: 12px
+}
+.footer ul{
+    margin-top: 10px;
+}
+
+.footer ul li {
+    -moz-border-radius: 42px;
+    -webkit-border-radius: 42px;
+    border-radius: 42px;
+    width: 42px;
+    height: 42px;
+    background-color: #424657;
+    float: left;
+    margin-left: 14px;
+    cursor: pointer;
+    list-style: none;
+}
+
+.footer ul li:nth-child(1):hover {
+    background-color: #fe7d01
+}
+
+.footer ul li:nth-child(2):hover {
+    background-color: #4d9e1e
+}
+
+.footer ul li:nth-child(3):hover {
+    background-color: #3a5998
+}
+
+.footer ul li:nth-child(4):hover {
+    background-color: #1ab2e8
+}
+
+.footer ul li:nth-child(5):hover {
+    background-color: #23a3eb
+}
+/*”“≤‡—˘ Ω*/
+.innercon {
+    font-size: 12px;
+    background-color: #fff;
+    border: 1px solid #eee;
+    color: #333;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.innercon * {
+    vertical-align: middle
+}
+
+.innercon .innercon-title {
+    padding: 12px 0;
+    border-bottom: 1px solid #eee
+}
+
+.innercon .innercon-title .innercon-con {
+    margin-left: 5px
+}
+
+.innercon .innercon-title .innercon-con span {
+    font-size: 22px
+}
+.innercon .innercon-title .innercon-return{
+    width: 70px;
+}
+
+.innercon .innercon-title .innercon-return a {
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    background-color: #c1c6cf;
+    margin-right: 20px
+}
+
+.innercon .innercon-title .innercon-return a i {
+    margin: 0 2px 0 5px
+}
+
+.innercon .innercon-title .innercon-return a span {
+    color: #fff;
+    font-size: 14px
+}
