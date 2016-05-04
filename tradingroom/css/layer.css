@@ -1,0 +1,100 @@
+
+/*弹出层*/
+.layer-menu .border-bottom {
+    border-bottom: 1px solid #e5e5e5;
+}
+.layer-menu .con {
+    padding: 20px 0px 30px 0px
+}
+
+.layer-menu .con div {
+    display: -moz-box;
+    display: -webkit-box;
+    display: box;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex
+}
+
+.layer-menu .con div select {
+    width: 270px
+}
+
+.layer-menu .con div label {
+    width: 140px;
+    text-align: right;
+    padding-right: 20px;
+    /*margin: auto;*/
+    color: #333
+}
+
+.layer-menu h2 {
+    font-size: 16px;
+    line-height: 22px;
+    color: #51a351;
+    margin-bottom: 22px
+}
+
+.layer-menu .p {
+    font-size: 15px;
+    color: #333;
+    margin-top: 10px
+}
+
+.layer-menu .p span {
+    color: #4f6eae
+}
+
+.layer-menu div p {
+    height: 48px;
+    line-height: 48px;
+    border: 1px solid #eee;
+    border-bottom: none;
+    color: #333
+}
+.modal .modal-body{
+    padding: 0px 20px 10px 20px;
+}
+.modal  .modal-header{
+    background-color: #51a351;
+    border-color: #51a351;
+    color: #fff;
+}
+.modal .modal-header .close{
+    font-size: 30px;
+    margin-top: -8px;
+}
+.modal  .modal-footer{
+    text-align: center;
+    background-color: #f6f6f6;
+    border-top: 1px solid #e5e5e5;
+}
+
+.modal  .table-bordered tr td{
+background-color: white;
+    border: 1px solid #eee;
+    color: #333;
+
+}
+
+.modal  .table-bordered tr td:first-child{
+    background-color: #FBFBFB;
+    text-align: right;
+    padding-right: 20px;
+}
+.modal  .table-bordered tr td:last-child{
+    background-color: white;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.modal  .btn-primary{
+    background-color: #4fa14f;
+    color: #fff;
+    border-color: #4fa14f;
+}
+.modal  .btn-default{
+    background-color: #8b9fc5;
+    color: #fff;
+    border-color: #8b9fc5;
+}

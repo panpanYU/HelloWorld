@@ -20,7 +20,7 @@
 }
 
 .innercon .funds-classify div {
-    padding: 0 80px;
+    /*padding: 0 80px;*/
     margin: 90px 0
 }
 
@@ -32,6 +32,7 @@
     width: 120px;
     overflow: hidden;
     display: block;
+    margin: auto;
 }
 
 .innercon .funds-classify div a span {
@@ -46,11 +47,16 @@
     font-size: 16px;
     color: #fff
 }
+.innercon .funds-classify div a p:hover{
+    text-decoration: none;
+}
 
 .innercon .funds-classify div .p {
     color: #5474b1;
     font-size: 20px;
     line-height: 46px;
     text-align: center;
-    cursor: pointer
+    cursor: pointer;
+    margin: auto;
+    width: 120px;
 }

@@ -12,6 +12,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/global.css" rel="stylesheet">
     <link href="css/funds.min.css" rel="stylesheet">
+    <link href="css/layer.css" rel="stylesheet">
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
@@ -134,24 +135,24 @@
                         </a>
                     </div>
                 </div>
-                <div class="funds-classify">
-                    <div class="funds pull-left">
+                <div class="funds-classify flex-one">
+                    <div class="funds flex-1">
                         <a>
                             <span><i class="icon-38 icon-38-iphone"></i></span>
 
                             <p>银行转账</p>
                         </a>
 
-                        <p class="p" id="funds">存入资金</p>
+                        <p class="p" data-toggle="modal" data-target="#myModal">存入资金</p>
                     </div>
-                    <div class="pull-left">
-                        <a href="">
+                    <div class="flex-1">
+                        <a>
                             <span><i class="icon-38 icon-38-android"></i></span>
 
                             <p>银联</p>
                         </a>
 
-                        <p class="p" id="bankTransfer">网上转账</p>
+                        <p class="p" data-toggle="modal" data-target="#myModalOne">网上转账</p>
                     </div>
                 </div>
             </div>
@@ -169,7 +170,7 @@
     <div class="container-fluid footer">
         <div class="container clearfix">
             <div class="menu pull-left">
-                <img src="http://192.168.199.109/HelloWorld/tradingroom/css/images/logo-1.png" alt="logo"
+                <img src="/tradingroom/css/images/logo-1.png" alt="logo"
                      width="181" height="24"/>
                 <label><span>© ACY</span>稀万国际</label>
             </div>
@@ -208,6 +209,61 @@
     <!-- footer_over -->
 </footer>
 <!--弹出层——银行转账——1_start-->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                    ×
+                </button>
+                <h4 class="modal-title" id="myModalLabel">
+                    银行转账
+                </h4>
+            </div>
+            <div class="modal-body">
+                <div class="layer-menu">
+                    <h2>ACY 稀万国际 USD(美金）、AUD（澳元）、EUR(欧元）、
+                        CNY（人民币）银行信息:
+                    </h2>
+
+                    <div>
+                        <table class="table table-bordered" id="table">
+                            <tbody>
+                            <tr class="warning">
+                                <td>银行名称</td>
+                                <td>HSBC</td>
+                            </tr>
+                            <tr class="danger">
+                                <td>银行地址</td>
+                                <td>1 Queen's Road Central, Hong Kong</td>
+                            </tr>
+                            <tr class="danger">
+                                <td>银行账号</td>
+                                <td>848-587093-838</td>
+                            </tr>
+                            <tr class="danger">
+                                <td>SWIFT(银行国际代码)</td>
+                                <td>HSBCHKHHHKH</td>
+                            </tr>
+                            <tr class="danger">
+                                <td>公司名称</td>
+                                <td>ACY Capital Australia Limited</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <p class="mar-top-10">· 请在填写汇款表格时，在附言中写下你的MT4账号以及账户名字</p>
+
+                    <p class="p">为了确保第一时间到账，你可以把汇款收据发送到<span>accounts@acyfx.com</span></p>
+                </div>
+                </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
 <div class="layer-funds" style="display: none">
     <div class="layer-bg"></div>
     <div class="layer layer-one">
@@ -244,6 +300,103 @@
 </div>
 <!--弹出层——银行转账——1_over-->
 <!--弹出层——银联——2_start-->
+<div class="modal fade" id="myModalOne" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                    ×
+                </button>
+                <h4 class="modal-title">
+                    银联
+                </h4>
+            </div>
+            <div class="modal-body">
+                <div class="layer-menu">
+                    <div class="con border-bottom">
+                        <div class="mar-top-20">
+                            <label>名</label>
+                            <select class="input-one">
+                                <option></option>
+                            </select>
+                        </div>
+                        <div class="mar-top-20">
+                            <label>姓</label>
+                            <input class="input-one" type="text"
+                                   placeholder=""/>
+                        </div>
+                        <div class="mar-top-20">
+                            <label>电子邮件</label>
+                            <select class="input-one">
+                                <option></option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="con">
+                        <div class="">
+                            <label>名</label>
+                            <input class="input-one input-one-gray" type="text" disabled="disabled"
+                                   placeholder="ACY FX"/>
+                        </div>
+                        <div class="mar-top-20">
+                            <label>姓</label>
+                            <input class="input-one input-one-gray" type="text" disabled="disabled"
+                                   placeholder="Intemal  Testing"/>
+                        </div>
+                        <div class="mar-top-20">
+                            <label>电子邮件</label>
+                            <input class="input-one" type="text"
+                                   placeholder=""/>
+                        </div>
+                        <div class="mar-top-20">
+                            <label>联系电话</label>
+                            <input class="input-one" type="text" placeholder=""/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-primary">支付</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="layer-funds" style="display: none">
+    <div class="layer-bg"></div>
+    <div class="layer layer-one">
+        <div class="layer-title">
+            <span>银行转账</span>
+
+            <h1></h1>
+            <label class="icon-18 icon-18-close close-funds"></label>
+        </div>
+        <div class="layer-menu padd-30">
+            <h2>ACY 稀万国际 USD(美金）、AUD（澳元）、EUR(欧元）、
+                CNY（人民币）银行信息:
+            </h2>
+
+            <div>
+                <p><label>银行名称</label><span>HSBC</span></p>
+
+                <p><label>银行地址</label><span>1 Queen's Road Central, Hong Kong</span></p>
+
+                <p><label>银行账号</label><span>848-587093-838</span></p>
+
+                <p><label>SWIFT(银行国际代码)</label><span>HSBCHKHHHKH</span></p>
+
+                <p><label>公司名称</label><span>ACY Capital Australia Limited</span></p>
+            </div>
+            <p class="mar-top-10">· 请在填写汇款表格时，在附言中写下你的MT4账号以及账户名字</p>
+
+            <p class="p">为了确保第一时间到账，你可以把汇款收据发送到<span>accounts@acyfx.com</span></p>
+        </div>
+        <div class="layer-stern">
+            <a href="" class="btn-middle bg-blue-4 btn-blue-border close-funds" type="button">关闭</a>
+        </div>
+    </div>
+</div>
 <div class="layer-bankTransfer" style="display: none">
     <div class="layer-bg"></div>
     <div class="layer layer-one">
@@ -303,7 +456,8 @@
 </div>
 <!--弹出层——银联——2_over-->
 <script src="js/jquery-1.11.1.min.js"></script>
-<script src="js/global.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/global.js"></script>
+<!--<script src="js/funds.js"></script>-->
 </body>
 </html>
