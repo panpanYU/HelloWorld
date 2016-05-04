@@ -110,7 +110,7 @@
 .sort a {
     text-align: center;
     width: 33.3339%;
-    height: 175px;
+    height: 165px;
     padding: 30px 0;
     background-color: #fff;
     overflow: hidden;
@@ -130,7 +130,7 @@
     border-right: 1px solid #dddedf;
     border-bottom: 1px solid #dddedf;
     text-align: right;
-    height: 175px;
+    height: 165px;
     padding: 0;
 }
 
@@ -181,7 +181,7 @@
 
 .sort a .gzq {
     vertical-align: baseline;
-    margin-top: 155px;
+    margin-top: 145px;
 }
 
 .sort a span {

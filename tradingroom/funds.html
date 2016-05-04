@@ -4,14 +4,14 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
-    <title>ACY稀万国际后台管理中心-个人信息</title>
+    <title>ACY稀万国际后台管理中心-存入资金</title>
     <meta name="keywords" content="ACY稀万国际 金融 交易">
     <meta name="description" content="ACY稀万国际后台管理中心">
     <link href="../css/images/favicon.ico" mce_href="favicon.ico" rel="icon"
           type="image/x-icon">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/global.css" rel="stylesheet">
-    <link href="css/person-infor.min.css" rel="stylesheet">
+    <link href="css/funds.min.css" rel="stylesheet">
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
@@ -134,91 +134,26 @@
                         </a>
                     </div>
                 </div>
-                <form class="innercon-from">
-                    <div class="innercon-describe mar-top-20">
-                        <label>名</label>
-                        <input class="input-one input-one-gray" type="text" disabled="disabled" placeholder="ACY FX"/>
+                <div class="funds-classify">
+                    <div class="funds pull-left">
+                        <a>
+                            <span><i class="icon-38 icon-38-iphone"></i></span>
+
+                            <p>银行转账</p>
+                        </a>
+
+                        <p class="p" id="funds">存入资金</p>
                     </div>
-                    <div class="innercon-describe mar-top-20">
-                        <label>姓</label>
-                        <input class="input-one input-one-gray" type="text" disabled="disabled"
-                               placeholder="Intemal  Testing"/>
+                    <div class="pull-left">
+                        <a href="">
+                            <span><i class="icon-38 icon-38-android"></i></span>
+
+                            <p>银联</p>
+                        </a>
+
+                        <p class="p" id="bankTransfer">网上转账</p>
                     </div>
-                    <div class="innercon-describe mar-top-20">
-                        <label>电子邮件</label>
-                        <input class="input-one input-one-gray" type="text" disabled="disabled"
-                               placeholder="Testing@testing.com"/>
-                    </div>
-                    <div class="innercon-describe mar-top-20">
-                        <label>联系电话</label>
-                        <input class="input-one input-one-gray" type="text" disabled="disabled" placeholder="n/a"/>
-                    </div>
-                    <div class="innercon-describe mar-top-20">
-                        <label>居住地址</label>
-                        <input class="input-one input-one-gray" type="text" disabled="disabled" placeholder="n/a"/>
-                    </div>
-                    <div class="innercon-describe mar-top-20">
-                        <label>城市</label>
-                        <input class="input-one input-one-gray" type="text" disabled="disabled" placeholder="n/a"/>
-                    </div>
-                    <div class="innercon-describe mar-top-20">
-                        <label>邮编</label>
-                        <input class="input-one input-one-gray" type="text" disabled="disabled" placeholder="--"/>
-                    </div>
-                    <div class="innercon-describe mar-top-20">
-                        <label>省份</label>
-                        <input class="input-one input-one-gray" type="text" disabled="disabled" placeholder="--"/>
-                    </div>
-                    <div class="innercon-describe mar-top-20">
-                        <label>国家</label>
-                        <input class="input-one input-one-gray" type="text" disabled="disabled" placeholder="澳大利亚"/>
-                    </div>
-                    <div class="innercon-describe mar-top-20">
-                        <label>个人证明</label>
-                        <span class="btn-middle bg-blue-4 btn-blue-border mar-right-20">上传正面</span><span
-                            class="btn-middle bg-blue-4 btn-blue-border">上传背面</span>
-                    </div>
-                    <div class="innercon-describe">
-                        <p class="describe-tips gray-tips">上传身份证的正反面或护照正面</p>
-                    </div>
-                    <div class="innercon-describe" id="innercon-describe">
-                        <label>居住证证明</label>
-                        <i class="icon-18 icon-18-pic mar-right-20"></i><span>已上传</span><a href=""
-                                                                                           class="describe-tips blue-tips">查看</a>
-                    </div>
-                    <div class="innercon-describe">
-                        <span class="describe-tips gray-tips lin22">后台审核中&nbsp;（我们会在48小时之内审核）</span>
-                    </div>
-                    <div class="innercon-describe mar-top-10">
-                        <label>其他证件</label>
-                        <span class="btn-middle bg-blue-4 btn-blue-border">上传附件</span>
-                    </div>
-                    <div class="innercon-describe">
-                        <span class="describe-tips red-tips">上传文件大小不能超过5MB，支持文件JPG、PNG，BMP</span>
-                    </div>
-                    <div class="hr-gray"></div>
-                    <div class="innercon-title">
-                        <div class="innercon-con">
-                            <i class="icon-28 icon-28-lock"></i>
-                            <span>更改您的密码</span>
-                        </div>
-                    </div>
-                    <div class="innercon-describe mar-top-20">
-                        <label>当前密码</label>
-                        <input class="input-one" type="text" placeholder=""/>
-                    </div>
-                    <div class="innercon-describe mar-top-20">
-                    <label>新密码</label>
-                    <input class="input-one" type="text" placeholder=""/>
                 </div>
-                    <div class="innercon-describe mar-top-20">
-                        <label>确认密码</label>
-                        <input class="input-one" type="text" placeholder=""/>
-                    </div>
-                    <div class="save-infor">
-                        <a href="" class="btn-middle bg-green btn-green-border" type="button">保存更改</a>
-                    </div>
-                </form>
             </div>
         </div>
     </div>
@@ -234,7 +169,8 @@
     <div class="container-fluid footer">
         <div class="container clearfix">
             <div class="menu pull-left">
-                <img src="http://192.168.199.109/HelloWorld/tradingroom/css/images/logo-1.png" alt="logo" width="181" height="24"/>
+                <img src="http://192.168.199.109/HelloWorld/tradingroom/css/images/logo-1.png" alt="logo"
+                     width="181" height="24"/>
                 <label><span>© ACY</span>稀万国际</label>
             </div>
             <div class="pull-right">
@@ -271,8 +207,101 @@
     </div>
     <!-- footer_over -->
 </footer>
+<!--弹出层——银行转账——1_start-->
+<div class="layer-funds" style="display: none">
+    <div class="layer-bg"></div>
+    <div class="layer layer-one">
+        <div class="layer-title">
+            <span>银行转账</span>
 
+            <h1></h1>
+            <label class="icon-18 icon-18-close close-funds"></label>
+        </div>
+        <div class="layer-menu padd-30">
+            <h2>ACY 稀万国际 USD(美金）、AUD（澳元）、EUR(欧元）、
+                CNY（人民币）银行信息:
+            </h2>
 
+            <div>
+                <p><label>银行名称</label><span>HSBC</span></p>
+
+                <p><label>银行地址</label><span>1 Queen's Road Central, Hong Kong</span></p>
+
+                <p><label>银行账号</label><span>848-587093-838</span></p>
+
+                <p><label>SWIFT(银行国际代码)</label><span>HSBCHKHHHKH</span></p>
+
+                <p><label>公司名称</label><span>ACY Capital Australia Limited</span></p>
+            </div>
+            <p class="mar-top-10">· 请在填写汇款表格时，在附言中写下你的MT4账号以及账户名字</p>
+
+            <p class="p">为了确保第一时间到账，你可以把汇款收据发送到<span>accounts@acyfx.com</span></p>
+        </div>
+        <div class="layer-stern">
+            <a href="" class="btn-middle bg-blue-4 btn-blue-border close-funds" type="button">关闭</a>
+        </div>
+    </div>
+</div>
+<!--弹出层——银行转账——1_over-->
+<!--弹出层——银联——2_start-->
+<div class="layer-bankTransfer" style="display: none">
+    <div class="layer-bg"></div>
+    <div class="layer layer-one">
+        <div class="layer-title">
+            <span>银联</span>
+
+            <h1></h1>
+            <label class="icon-18 icon-18-close close-bankTransfer"></label>
+        </div>
+        <div class="layer-menu">
+            <div class="con border-bottom">
+                <div class="mar-top-20">
+                    <label>名</label>
+                    <select class="input-one">
+                        <option></option>
+                    </select>
+                </div>
+                <div class="mar-top-20">
+                    <label>姓</label>
+                    <input class="input-one" type="text"
+                           placeholder=""/>
+                </div>
+                <div class="mar-top-20">
+                    <label>电子邮件</label>
+                    <select class="input-one">
+                        <option></option>
+                    </select>
+                </div>
+            </div>
+            <div class="con">
+                <div class="">
+                    <label>名</label>
+                    <input class="input-one input-one-gray" type="text" disabled="disabled"
+                           placeholder="ACY FX"/>
+                </div>
+                <div class="mar-top-20">
+                    <label>姓</label>
+                    <input class="input-one input-one-gray" type="text" disabled="disabled"
+                           placeholder="Intemal  Testing"/>
+                </div>
+                <div class="mar-top-20">
+                    <label>电子邮件</label>
+                    <input class="input-one" type="text"
+                           placeholder=""/>
+                </div>
+                <div class="mar-top-20">
+                    <label>联系电话</label>
+                    <input class="input-one" type="text" placeholder=""/>
+                </div>
+            </div>
+        </div>
+        <div class="layer-stern">
+            <span class="btn-middle btn-bg-green btn-green-border mar-right-10">支付</span>
+            <span class="btn-middle bg-blue-4 btn-blue-border close-bankTransfer">关闭</span>
+        </div>
+    </div>
+</div>
+<!--弹出层——银联——2_over-->
 <script src="js/jquery-1.11.1.min.js"></script>
 <script src="js/global.js"></script>
 <script src="js/bootstrap.min.js"></script>

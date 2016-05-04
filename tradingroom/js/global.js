@@ -29,6 +29,8 @@ var global = {
     smsSendType: function (mobi, type) {
         console.log("成功" + mobi + "," + type)
     },
+
+
     //初始化
     init: function () {
         //global.tabShow();
@@ -42,4 +44,18 @@ $(function () {
 $(".submit-refresh a").on("click", function (event) {
     event.preventDefault();
     global.smsSend($(".btnSendCode"), 10);
-})
+});
+$(function () {
+    $('#ad-carousel').carousel();
+    $('#menu-nav .navbar-collapse a').click(function (e) {
+        var href = $(this).attr('href');
+        var tabId = $(this).attr('data-tab');
+        if ('#' !== href) {
+            e.preventDefault();
+            $(document).scrollTop($(href).offset().top - 70);
+            if (tabId) {
+                $('#feature-tab a[href=#' + tabId + ']').tab('show');
+            }
+        }
+    });
+});

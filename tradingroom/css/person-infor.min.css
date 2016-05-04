@@ -47,28 +47,6 @@
     /*flex: 1*/
 }
 
-@media(min-device-width:320px){
-    #innercon-describe{
-        line-height: 21px;
-    }
-    .navbar-brand{
-        font-size: 16px;
-    }
-    .btn-middle{
-        padding: 0 15px;
-    }
-
-    .innercon{
-        padding: 0;
-    }
-    .innercon-describe{
-        padding-right: 15px;
-    }
-    .innercon .innercon-from .innercon-describe label {
-        width: 90px;
-        font-size: 13px;
-    }
-}
 
 .innercon .innercon-from .innercon-describe .describe-tips {
     font-size: 12px;
